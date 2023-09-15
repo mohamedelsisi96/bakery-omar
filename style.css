@@ -1,0 +1,381 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pic/bakery1.jpg);
+    background-size: 100% 100%;
+    color: white;
+    display: inline-block;
+}
+.home .nav{
+    padding:50px 100px;
+    height: 50px;
+    width: 100%;
+ vertical-align:bottom;
+
+}
+.home .nav .logo , .home .nav .list{
+    display: inline-block;
+}
+.home .nav .logo{
+    width: 200px;
+   
+}
+.nav img {
+    width: 100%;
+}
+.home .nav .list{
+    width: fit-content;
+    margin: 0 0 0 700px;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+    
+}
+.nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.home .container{
+    width: 600px;
+    height: 500px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.home .container h1{
+    padding: 20px;
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+
+}
+.home .container .one , .home .container .two{
+    padding: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+  
+
+}
+.btn{
+    margin-top: 40px;
+}
+.btn .a1{
+    color: white;
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    background-color: coral;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.btn .a2{
+    color: white;
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+/* end home page */
+/* start who page  */
+.who{
+width: 100vw;
+height: 100vh;
+background-color: white;
+display: inline-block;
+text-align: center;
+}
+ .cont{
+    width: 80%;
+    height: 100%;
+
+ display: inline-block;
+
+}
+ .img ,  .txt {
+    width: 40%;
+    height: 700px;
+    padding: 100px 0px;
+    display: inline-block;
+        vertical-align: text-top
+    }
+    .who .cont .txt{
+        padding-left: 40px;
+        
+        text-align: left;
+    }
+    .who .cont .txt h2{
+        padding-top: 30px;
+        font-family: "Alegreya";
+        font-size: 30px;
+        font-weight: 300;
+        padding: 20px 0;
+    }
+    .who .cont .txt p {
+        font-family: "Alegreya Sans";
+        font-size: 17px;
+        color: #686868;
+        line-height: 1.5;
+      }
+      .who .cont .txt img{
+        width: 30px;
+       
+      }
+      .who .cont .txt div{
+        display: inline-flex;
+        padding: 23px 0px;
+      }
+      .who .cont .txt div p{
+        padding-left: 10px;
+      }
+   
+.who .cont .img img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+/* end who page */
+/* start location page */
+.location{
+width: 100vw;
+height: 100vh;
+background-color: white;
+display: inline-block;
+text-align: center;
+background-color: #f8f8f8;
+
+}
+.location .img{
+    padding-left: 30px;
+}
+.location .img img{
+    width: 100%;
+    height: 100%;
+
+}
+.location .txt{
+    text-align: left;
+}
+.location .txt h2{
+    padding-top: 50px;
+    font-family: "Alegreya";
+    font-size: 30px;
+    font-weight: 300;
+  
+}
+.location .txt p{ font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.5;
+padding: 30px 0;}
+
+
+/* end location page */
+/* start packing page */
+.backing{
+    width: 100vw;
+    height: 100vh; 
+    text-align: center;
+    padding: 20px 0;
+}
+.backing h2{
+    padding: 30px 0;
+    font-family: "Alegreya";
+    font-size: 30px;
+    font-weight: 300;
+}
+.backing p{
+font-size: 17px;
+color: #888;
+margin: 17px auto 0;
+}
+.backing .master{
+    padding: 40px 0;
+}
+.backing .master .backery{
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+    text-align: center;
+}
+.backing .master .backery h3{
+    font-family: "Alegreya";
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px;
+
+}
+.backing .master .backery img{
+    width: 100%;
+    height: 300px;
+}
+.backing .master .backery p{
+font-family: "Alegreya Sans";
+font-size: 17px;
+color: #686868;
+line-height: 1.6;
+}
+.clear{
+    clear: both;
+}
+
+/* end packing page */
+ /* start contact page  */
+ .contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f8f8; 
+ }
+ .contact .img{
+    padding-left: 30px;
+}
+.contact .img iframe{
+    width: 100%;
+    height: 100%;
+
+}
+.contact .txt{
+    text-align: left;
+    display: inline-block;
+    vertical-align: text-top
+
+}
+.contact .txt h2{
+    padding-top: 30px;
+    font-family: "Alegreya";
+    font-size: 30px;
+    font-weight: 300;
+  
+}
+.contact .txt p{ font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.5;
+
+}
+.contact .cont .txt div{
+    display:  block ruby;
+   
+  }
+  .contact .cont .txt .am {
+    padding: 23px 0px;
+    display: inline-flex;
+  }
+
+
+.contact .cont .img img{
+width: 100%;
+height: 100%;
+
+} 
+.contact .cont .txt img{
+    width: 20px;
+    height: 20px;
+  
+    padding-right: 5px;
+
+}
+
+ /* end contact page  */
+ /* start footer page */
+ .footer{
+    display: inline-block;
+    background-color: #554d40;
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    padding-top: 70px;
+ }
+ .aboutus , .why , .opening , .ContactDetails{
+    float: left;
+    width: 23%;
+    text-align: left;
+    padding-right: 50px;
+ }
+ .footer h2{
+    font-family: "Alegreya";
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+ }
+ .why p , .opening p{
+    border-bottom: .5px #969696 solid;
+    line-height: 2;
+    padding: 4px 0;
+
+ }
+ .footer p {
+color: #969696;
+font-size: 16px;
+padding-right: 20px;
+line-height: 1.5;
+ }
+ .ContactDetails ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: .5px #969696 solid;
+    color:#969696 ;
+ }
+ .ContactDetails ul li img{
+    width: 20px;
+    height: 20px;
+  
+    padding-right: 5px;
+ }
+ .ContactDetails ul li a {
+    color:#969696 ;
+    padding-left: 10px;
+ 
+ }
+ .ContactDetails ul li p{
+    color:#969696 ;
+    padding-left: 10px;
+ 
+ }
+
+ /* end footer page */
+ /* start end page */
+ .end{
+    width: 100vw;
+    height: 60vh;
+    background-color: #353330;
+    display: block;
+    text-align: center;
+    margin-top: -7px;
+    padding: 70px 0;
+    
+ }
+
+ .end p{
+    padding: 50px;
+    color: #777
+ }
+ .end .endimg img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ /* #353330 */
+ /* end end page */
